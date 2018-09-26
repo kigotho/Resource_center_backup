@@ -1,0 +1,20 @@
+#switch-mono-css , #switch-default-css {
+  padding: 0.25em;
+  font-family: Anton, Helvetica, Arial, sans-serif; 
+  font-family: Helvetica, Arial, sans-serif; 
+  text-decoration: none;
+  margin: 0.5em;
+  font-size: 0.50em
+}
+
+#switch-default-css {
+  border: 2px solid #FF0080;
+  color: #FF0080;
+}
+
+
+#switch-mono-css {
+  border: 2px solid #999;
+  color: #999;
+}
+

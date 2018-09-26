@@ -1,0 +1,179 @@
+
+
+.dotty {
+  font-size: 1em;
+  color: #FF0080;
+  margin-left: 0.5em; 
+  margin-right: 0.5em; 
+}
+
+
+#headline-box {
+  width: 80%;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+#headline-box h4{
+  color: #CF2;
+  margin-bottom: 5px;
+  font-size: 120%;
+
+}
+
+#headline-box a {
+  text-decoration: none;
+  border-bottom: dotted 1px red;
+}
+
+
+.side-menu li {
+  margin-top: 3px;
+}
+
+
+
+h2.main {
+  font-size: 180%;
+  /* width: 400px ! important;
+  margin-right: 10px ! important;
+  margin-left: auto ! important; */
+}
+
+ul.newslinks li{
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+.hat-tip {
+
+  font-size: 70%;
+  color: #FF0080 ! important;
+
+}
+
+p, .blog p {
+  font-size: 0.98em ! important;
+  color: #333;
+
+}
+
+blockquote {
+  font-size: 90%;
+  font-color: #555;
+}
+
+acronym {
+  border-bottom: dotted 1px;
+  cursor: help;
+}
+
+div.sidenote {
+  margin-left: 5%;
+  padding:5px 10px;
+  border-left:  2px solid #e8ff38;
+  background: #f8ffc5;
+
+}
+
+
+div#bookblurb {
+  padding: 10px;
+  width: 600px;
+  background-color: #f8ffc4;
+
+  margin: 20px 0 10px auto;
+  height: 150px;
+}
+
+div#bookblurb p.big {
+  margin: 20px 0;
+  font-size: 130% ! important;
+  color:#59820d;
+  font-weight: bold;
+}
+div#bookblurb img {
+
+  padding-right: 20px;
+  float:left;
+}
+
+
+/*    display: none ! important; */
+
+div.cafepress {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div.cafepress img {
+  width:280px;
+  height:280px;
+  border: 1px solid #CF0;
+
+}
+
+div.pix {
+
+text-align: center;
+}
+div.pix img {
+ border: 3px solid #F0C;
+
+}
+
+@media screen and (max-width: 530px) {
+
+  div.cafepress img {
+    width:30%;
+    height:30%;
+    border: 1px solid #CF2;
+
+}
+
+html {
+  font-size: 14pt;
+}
+p#icon-row {
+  display:none ! important;
+}
+
+
+html.main {
+
+  /* http://css-tricks.com/perfect-full-page-background-image/ */
+  /* background: url(/img/ng_t-shirt_003-pale.png) no-repeat left center fixed #fff; */
+  background: fixed #fff ! important;
+
+}
+
+.newslinks {
+  margin-bottom: 100px;
+}
+
+h2.main {
+  text-align: left! important;
+}
+
+h2.main {
+  font-size: 180%;
+}
+#switch-default-css, #switch-mono-css {
+  display:none ! important;
+}
+
+#bookblurb {
+  display:none ! important;
+}
+
+.footer, .footsie {
+  width: 90% ! important;
+  line-height: 2em;
+  text-align: center;
+}
+
+
+.footer {
+  margin-top:80px;
+  position:relative ! important;
+} 

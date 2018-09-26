@@ -1,0 +1,345 @@
+@charset "UTF-8";
+/*------------------------------------*\
+STYLE.CSS
+\*------------------------------------*/
+/*
+Author:             Harry Roberts
+Twitter:            @csswizardry
+Author URL:         csswizardry.com
+
+
+
+
+
+/*------------------------------------*\
+CONTENTS
+\*------------------------------------*/
+/*
+SHARED
+MAIN
+ISLANDS
+HEADER
+TYPE
+ */
+
+
+
+
+
+
+
+/*------------------------------------*\
+$MAIN
+\*------------------------------------*/
+html{
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-family: Helvetica, Arial, sans-serif; /* Swap these two lines around to switch between serif and sans */
+
+
+}
+
+
+h1, h2, h3, h4, h5, .side-menu, .flat-menu  {
+  font-family: Anton, Helvetica, Arial, sans-serif; /* Swap these two lines around to switch between serif and sans */
+  font-weight: normal;
+}
+
+h1 {
+  color: #cecece ! important;
+}
+
+html.main {
+
+  /* http://css-tricks.com/perfect-full-page-background-image/ */
+  background: url(/img/ng_t-shirt_003.png) no-repeat left center fixed #fff;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /*  padding-top:10px; */ /* Move the content down over the page-top background-image. */
+  font-family: Georgia, "Times New Roman", serif;
+  font-family: Helvetica, Arial, sans-serif; /* Swap these two lines around to switch between serif and sans */
+
+}
+
+html.page, html.index {
+
+  /* http://css-tricks.com/perfect-full-page-background-image/ */
+
+  background: url(/img/ng_t-shirt_pages_lighter_001.png) no-repeat left center fixed #fff;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /*  padding-top:10px; */ /* Move the content down over the page-top background-image. */
+  font-family: Georgia, "Times New Roman", serif;
+  font-family: Helvetica, Arial, sans-serif; /* Swap these two lines around to switch between serif and sans */
+
+}
+
+html.page {
+  margin-top: 10%;
+
+}
+
+ html.index h2 {
+  text-align: right;
+}
+
+ html.article h2 , html.article h1, html.article h3, html.article h4{
+  text-align: left;
+}
+
+
+
+
+html.blog {
+
+  /* http://css-tricks.com/perfect-full-page-background-image/ */
+
+  background: url(/img/ng_t-shirt_pages_lighter_001.png) no-repeat left center fixed #fff;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /*  padding-top:10px; */ /* Move the content down over the page-top background-image. */
+  font-family: Georgia, "Times New Roman", serif;
+  font-family: Helvetica, Arial, sans-serif; /* Swap these two lines around to switch between serif and sans */
+
+
+}
+
+div.links ul, ul.links {
+  list-style-type: none;
+}
+
+.social {
+text-align: right;
+
+}
+
+#texty {
+  text-align: right;
+  color:#999;
+}
+
+
+
+.blurby {
+  text-align: right;
+  color:#ccc;
+    font-size: 1.25 em ! important;
+}
+
+
+#main {
+  min-height:90%;
+  position:relative;
+}
+
+/*------------------------------------*\
+$HEADER
+\*------------------------------------*/
+.header{
+  padding:1.5em 0;
+}
+
+h2 {
+  color: #666;
+
+}
+
+.gap {
+margin-top: 3em;
+margin-top: 3em;
+padding: 3em;
+height: 5em;
+width: 50%;
+}
+
+ul.side-menu {
+  list-style: none;
+  margin-left: 0;
+  text-align: right;
+}
+
+
+ul.flat-menu {
+  list-style: none;
+  margin-right: 0;
+  margin-left: auto;
+  padding:0;
+  text-align: right;
+  display: inline ! important;
+}
+
+ul.flat-menu  li, ul.flat-menu  li a {
+  font-size: 1.25em; /* same as h3 */
+  padding: 0 0 0 1em;
+  text-decoration: none;
+  color: #333;
+  margin: 10% 0 0 0;
+  display: inline ! important;
+}
+
+.flush {
+text-align: right;
+margin-right:0;
+margin-left: auto;
+
+}
+.block-it {
+  background-image: url("/img/fade-white-75.png");
+  background-repeat: repeat-x repeat-y;
+  padding: 12px;
+  
+}
+
+ul.side-menu  li, ul.side-menu  li a {
+  font-size: 1.25em;
+  text-decoration: none;
+  color: #333;
+  margin-top: 10%;
+}
+
+
+.excerpt {
+
+  margin-left: 3em;
+  font-size: 0.75em;
+  color: #999 ! important;
+}
+
+
+.excerpt h1, .excerpt h2, .excerpt h3 {
+  color: #999 ! important;
+}
+
+
+
+li.blog-link a {
+
+  text-decoration: none;
+color: #cecece ! important;
+
+}
+
+h3, h3 a {
+  color: #cecece;
+  text-decoration: none;
+
+}
+
+
+h1 {
+  color: #ccc;
+  font-size: 4em ;
+  font-weight: normal;
+/*  font-style: italic; */
+}
+
+
+.top-menu {
+  margin-top: 10%;
+}
+
+.footer h1 , .footer h2 {
+  font-size: 1em;
+  font-family: sans-serif;
+  display: inline;
+  color: #ccc;
+}
+
+.footer a, .footer a:visited {
+  color:#ccc;
+
+  color: #ccc;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+/*------------------------------------*\
+$FOOTER
+\*------------------------------------*/
+.footer{
+  color:#666;
+  font-weight: bold;
+  /*
+  color: #f30;
+
+  color: #cf2;
+   */
+margin-top:30px;
+position:absolute;
+position:fixed;
+
+bottom:0;
+width: 100%;
+height:50px;			/* Height of the footer */
+text-align: right;
+font-size: 0.75em;
+
+background-image: url("/img/fade-white-75.png");
+background-repeat: repeat-x repeat-y;
+/* Here's where you set the opacity */
+/* opacity: .7; */
+
+/* Here's where you set the opacity for the bad browser */
+/*   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; */
+}
+
+.blog-date {
+text-align: right;
+color: #ccc;
+font-size: 0.5em;
+}
+
+
+
+.blog-title {
+  text-align: right;
+  margin-bottom: 0.2em;
+}
+
+.faded {
+  background-image: url("/img/more-white.png");
+  background-repeat: repeat-x repeat-y;
+}
+
+
+/*------------------------------------*\
+$TYPE
+\*------------------------------------*/
+a{
+  color:#4a8ec2;
+}
+mark{
+  border-bottom:2px solid;
+}
+pre{
+  padding:10px;
+}
+pre code,
+pre mark{
+  background:none;
+}
+
+
+
+
+
+/*------------------------------------*\
+$MISC
+\*------------------------------------*/
+::selection		{ background-color:#4a8ec2; color:#fff; }
+::-moz-selection{ background-color:#4a8ec2; color:#fff; }
+hr{
+  padding:0;
+  border:none;
+  height:1px;
+  background-color:#ccc;
+}
