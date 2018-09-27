@@ -24,4 +24,4 @@ def run_test(multi_questions)
 	puts "#{score} is your score in #{multi_questions.length} questions"
 end
 
-run_test(questions)
+run_test(multi_questions)

@@ -1,0 +1,8 @@
+require 'bundler'
+
+Bundler.require
+
+require "./file"
+#require "./lib/image"
+
+run App
