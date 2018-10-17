@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'gtk2'
+require 'gtk3'
 
 app = Gtk::Application.new 'com.iridakos.gtk-todo', :flags_none
 

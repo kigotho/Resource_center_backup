@@ -1,0 +1,87 @@
+const data = [
+  {
+    id: 1,
+    name: 'Breidecker',
+    bottle_price: 17.90,
+    case_price: 204.06,
+    currency: '$',
+    image: '/images/Breidecker.jpg',
+    number: '13',
+  },
+  {
+    id: 2,
+    name: 'Chardonnay',
+    bottle_price: 17.90,
+    case_price: 204.06,
+    currency: '$',
+    image: '/images/Breidecker.jpg',
+    number: '15',
+
+  },
+  {
+    id: 3,
+    name: 'Gewurtztraminer',
+    bottle_price: 17.90,
+    case_price: 204.06,
+    currency: '$',
+    image: '/images/Breidecker.jpg',
+    number: '15',
+  },
+  {
+    id: 4,
+    name: 'Breidecker',
+    bottle_price: 17.90,
+    case_price: 204.06,
+    currency: '$',
+    image: '/images/Breidecker.jpg',
+    number: '13',
+  },
+  {
+    id: 5,
+    name: 'Breidecker',
+    bottle_price: 17.90,
+    case_price: 204.06,
+    currency: '$',
+    image: '/images/Breidecker.jpg',
+    number: '13',
+  },
+  {
+    id: 6,
+    name: 'Breidecker',
+    bottle_price: 17.90,
+    case_price: 204.06,
+    currency: '$',
+    image: '/images/Breidecker.jpg',
+    number: '13',
+  } ,
+  {
+    id: 7,
+    name: 'Breidecker',
+    bottle_price: 17.90,
+    case_price: 204.06,
+    currency: '$',
+    image: '/images/Breidecker.jpg',
+    number: '13',
+  },
+  {
+    id: 8,
+    name: 'Breidecker',
+    bottle_price: 17.90,
+    case_price: 204.06,
+    currency: '$',
+    image: '/images/Breidecker.jpg',
+    number: '13',
+  },
+  {
+    id: 9,
+    name: 'Breidecker',
+    bottle_price: 17.90,
+    case_price: 204.06,
+    currency: '$',
+    image: '/images/Breidecker.jpg',
+    number: '13',
+  }
+  
+];
+
+export default data;
